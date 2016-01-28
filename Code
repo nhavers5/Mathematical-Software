@@ -1,1 +1,14 @@
-var hi = prompt ("Hi")
+var number = prompt("Upto which term in the fibonacci sequence would you like to calculate to")
+var Fn1=1
+var Fn2=0
+var fibonacci = function() {
+    console.log(0)
+    console.log(1)
+    for (n=0;n<number;n++) {
+        var Fn = Fn1 + Fn2
+        Fn2 = Fn1
+        Fn1 = Fn
+        console.log(Fn)
+  }
+}
+fibonacci()
